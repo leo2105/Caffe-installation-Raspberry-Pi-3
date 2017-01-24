@@ -6,8 +6,9 @@ This is a installation of caffe in raspberry pi
 
 sudo apt-get update && sudo apt-get upgrade
 
-
 sudo apt-get install -y gfortran cython 
+
+
 sudo apt-get install -y libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler git
 sudo apt-get install --no-install-recommends libboost-all-dev
 sudo apt-get install -y python-dev libgflags-dev libgoogle-glog-dev liblmdb-dev libatlas-base-dev python-skimage
