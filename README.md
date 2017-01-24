@@ -20,8 +20,11 @@ sudo pip install pyzmq jsonschema pillow numpy scipy ipython jupyter pyyaml
 ## Install caffe
 
 git clone https://github.com/BVLC/caffe
+
 cd caffe
+
 cp Makefile.config.example Makefile.config
+
 sudo nano Makefile.config
 
 
@@ -30,15 +33,22 @@ Modify next lines
 Instead of these lines
 
 '#'CPU_ONLY := 1
+
 /usr/lib/python2.7/dist-packages/numpy/core/include
+
 INCLUDE_DIRS := $(PYTHON_INCLUDE) /usr/local/include
+
 LIBRARY_DIRS := $(PYTHON_LIB) /usr/local/lib /usr/lib
 
 with 
 
 CPU_ONLY := 1
+
 /usr/local/lib/python2.7/dist-packages/numpy/core/include
+
 INCLUDE_DIRS := $(PYTHON_INCLUDE) /usr/local/include /usr/include/hdf5/serial/
+
 LIBRARY_DIRS := $(PYTHON_LIB) /usr/local/lib /usr/lib /usr/lib/arm-linux-gnueabihf/hdf5/serial/
+
 
 
