@@ -28,7 +28,7 @@ cp Makefile.config.example Makefile.config
 sudo nano Makefile.config
 
 
-Modify next lines
+#### Modify next lines
 
 Instead of these lines
 
