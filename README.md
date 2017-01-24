@@ -28,9 +28,7 @@ cp Makefile.config.example Makefile.config
 sudo nano Makefile.config
 
 
-#### Modify next lines
-
-Instead of these lines
+#### Modify next lines, instead of these
 
 '#'CPU_ONLY := 1
 
