@@ -60,7 +60,7 @@ make runtest
 make pycaffe
 
 
-% ./scripts/download_model_binary.py models/bvlc_googlenet
+$ ./scripts/download_model_binary.py models/bvlc_googlenet $
 
 
 Thanks to Knight of Pi
