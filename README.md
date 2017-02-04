@@ -83,6 +83,6 @@ sudo python setup.py install
 
 will continue
 
-Thanks to Knight of Pi
+Thanks to Knight of Pi :
 
 http://www.knight-of-pi.org/deepdream-on-the-raspberry-pi-3-with-raspbian-jessie/
