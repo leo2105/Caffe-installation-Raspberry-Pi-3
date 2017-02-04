@@ -59,8 +59,24 @@ make runtest
 
 make pycaffe
 
+./scripts/download_model_binary.py models/bvlc_googlenet
 
-$ ./scripts/download_model_binary.py models/bvlc_googlenet $
+sudo nano ~/.bashrc
+
+export PYTHONPATH=/home/pi/deepdream/caffe/python:$PYTHONPATH  // Agregar al final del archivo
+
+
+#### Protobuf installation
+
+cd ~/caffe
+
+cd python
+
+python setup.py build
+
+python setup.py google_test
+
+sudo python setup.py install
 
 
 Thanks to Knight of Pi
