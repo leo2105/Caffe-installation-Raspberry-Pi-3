@@ -66,7 +66,7 @@ sudo nano ~/.bashrc
 export PYTHONPATH=/home/pi/deepdream/caffe/python:$PYTHONPATH  // Agregar al final del archivo
 
 
-#### Protobuf installation
+## Protobuf installation
 
 cd ~/caffe
 
