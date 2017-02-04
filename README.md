@@ -63,7 +63,7 @@ make pycaffe
 
 sudo nano ~/.bashrc
 
-export PYTHONPATH=/home/pi/deepdream/caffe/python:$PYTHONPATH  // Agregar al final del archivo
+export PYTHONPATH=/home/pi/deepdream/caffe/python:$PYTHONPATH  // Add at the end of file
 
 
 ## Protobuf installation
@@ -78,6 +78,8 @@ python setup.py google_test
 
 sudo python setup.py install
 
+
+## Example Web Demo in Caffe
 
 Thanks to Knight of Pi
 http://www.knight-of-pi.org/deepdream-on-the-raspberry-pi-3-with-raspbian-jessie/
