@@ -63,7 +63,7 @@ make pycaffe
 
 sudo nano ~/.bashrc
 
-export PYTHONPATH=/home/pi/deepdream/caffe/python:$PYTHONPATH  // Add at the end of file
+export PYTHONPATH=/home/pi/caffe/python:$PYTHONPATH  // Add at the end of file
 
 
 ## Protobuf installation
